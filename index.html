@@ -71,7 +71,7 @@
                             <i class="fa-brands fa-github"></i>
                         </div>
                         <div class="icon-text">
-                            <span class="text">YanaLeon</span>
+                            <a class="text" href="https://github.com/YanaLeon">github.com/YanaLeon</a>
                         </div>
                     </div>
                     <div class="telegram">
@@ -79,7 +79,7 @@
                             <i class="fa-brands fa-telegram"></i>
                         </div>
                         <div class="icon-text">
-                            <span class="text">yaleonovich</span>
+                            <a class="text" href="https://t.me/yaleonovich">@yaleonovich</a>
                         </div>
                     </div>
                     <div class="education">
@@ -90,7 +90,7 @@
                             <p class="text">Belarusian State University, Institute of Journalism</p>
                         </div>
                         <div class="icon-text">
-                            <p class="text">IT-Academy, course HTML, CSS</p>
+                            <p class="text">IT-Academy, course HTML, CSS, JavaScript</p>
                         </div>
                     </div>
                 </div>
@@ -104,7 +104,7 @@
                     <p class="header-name" id="AboutMe">About Me</p>
                 </div>
                 <div class="text-abot-me-conteiner">
-                    <p class="text-abot-me">I&grave;m 28 years old. I have an education as a journalist. For several year I have worked as a journalist, but decided to change my profession. And for 5 years now I have been working as a specialist in foreign economic activity. I have always been interested in creating and developing websites. I am interested in inventing new things and improving old ones. So I decided to teach Front&ndash;End Development in RSSchool.</p>
+                    <p class="text-abot-me">Hello there, I am looking for a Junior Front-end developer job. At the moment I have knowledge of JavaScript, HTML, CSS. Every day I improve my skills and develop. Now I am learning React. Below you can see examples of my code, including on GitHub, and examples of my works.</p>
                 </div>
                 <div class="header-information">
                     <p class="header-name" id="HardSkills">Hard skills</p>
@@ -135,27 +135,42 @@
                 </div>
                 <div class="code">
                     <pre><code>
-                const numbers = ("1 2 3 4 5");
-                function highAndLow(numbers){
-                const numbers2 = numbers.split(" ");
-                return Math.max.apply(null, numbers2) +" "+ Math.min.apply(null, numbers2);
-                }</code></pre>
+        Array.prototype.mapPolifill = function (fun) {
+            let resultArray = [];
+            for (let i = 0; i < this.length; i++) {
+                resultArray.push(fun(this[i], i, this));
+            }
+            return resultArray
+        }</code></pre>
+                    <a class="code-text" href="https://github.com/YanaLeon">More examples can be found at the link: github.com/YanaLeon</a>
                 </div>
                 <div class="header-information">
                     <p class="header-name" id="MyProjects">My projects</p>
                 </div>
                 <div class="project-conteiner">
                     <div class="project">
-                        <a href="http://fe.it-academy.by/Sites/0039820/Leonovich_coffee.html" class="project-name">Coffee store<img src="image/Project1.png" class="project-foto" alt="Scrin my project1"></a>
+                        <a href="http://fe.it-academy.by/Sites/0039820/Leonovich_coffee.html" class="project-name">Coffee store
+                            <img src="image/Project1.png" class="project-foto" alt="Scrin my project1">
+                            <span class="text-project">HTML, CSS</span>
+                        </a>
                     </div>
                     <div class="project">
-                        <a href="https://rolling-scopes-school.github.io/yanaleon-JSFEPRESCHOOL2022Q2/momentum-new/" class="project-name">Momentum<img src="image/Project2.png" class="project-foto" alt="Scrin my project2"></a>
+                        <a href="https://rolling-scopes-school.github.io/yanaleon-JSFEPRESCHOOL2022Q2/momentum-new/" class="project-name">Momentum
+                            <img src="image/Project2.png" class="project-foto" alt="Scrin my project2">
+                            <span class="text-project">HTML, CSS, JS</span>
+                        </a>
                     </div>
                     <div class="project">
-                        <a href="https://rolling-scopes-school.github.io/yanaleon-JSFE2022Q3/online-zoo/pages/main/" class="project-name">Online zoo<img src="image/Project3.png" class="project-foto" alt="Scrin my project3"></a>
+                        <a href="https://rolling-scopes-school.github.io/yanaleon-JSFE2022Q3/online-zoo/pages/main/" class="project-name">Online zoo
+                            <img src="image/Project3.png" class="project-foto" alt="Scrin my project3">
+                            <span class="text-project">HTML, CSS</span>
+                        </a>
                     </div>
                     <div class="project">
-                        <a href="https://rolling-scopes-school.github.io/yanaleon-JSFE2022Q3/gem-puzzle/" class="project-name">Puzzle<img src="image/Project4.png" class="project-foto" alt="Scrin my project4"></a>
+                        <a href="https://yanaleon.github.io/IT-Academy-homework/GAME/index.html#Main" class="project-name">Puzzle
+                            <img src="image/Project4.png" class="project-foto" alt="Scrin my project4">
+                            <span class="text-project">HTML, CSS, JS</span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -165,7 +180,6 @@
     <footer>
         <div class="conteiner-navigation-footer">
             <div class="logo">
-                <img src="image/Logo.png" class="logo-image" alt="Logo RS">
             </div>
             <div class="footer-text">2022&ndash;2023</div>
         </div>
