@@ -54,7 +54,10 @@ a {
     background-color: rgb(246 198 203);
     box-shadow: 0px 0px 6px rgb(73 68 68);
 }
-
+.text {
+    word-wrap: break-word;
+    max-width: 350px;
+}
 img.myfoto {
     transform: perspective(500px) rotate3d(20, 40, 0, 13deg);
     width: 100%;
