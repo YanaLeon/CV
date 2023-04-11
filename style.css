@@ -5,9 +5,13 @@ body {
     max-width: 2000px;
     overflow: auto;
 }
+.text {
+    margin: 0;
+    padding: 0;
+}
 .conteiner-navigation {
     max-width: 2000px;
-    height: 90px;
+    height: 120px;
     box-shadow: 5px 5px 7px rgb(73, 68, 68);
     overflow: auto;
     background-color: #9a9292;
@@ -15,7 +19,7 @@ body {
 a {
     text-decoration:none;
     color: #9a9292;
-  }
+}
 .menu {
     text-align: center;
 }
@@ -111,14 +115,13 @@ img.myfoto {
 }
 
 .icon-text {
-    font-size: 25px;
+    font-size: 23px;
     color: #9a9292;
     font-weight: 900;
     padding-left: 10px;
 }
-
-.icon-text-mail {
-    font-size: 20px;
+.text {
+    font-size: 23px;
     color: #9a9292;
     font-weight: 700;
     padding-left: 5px;
@@ -203,10 +206,10 @@ img.myfoto {
    flex-basis: 10%;flex-basis: 10%;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 720px) {
     .menu li a {
-        font-size: 17px;
-      }
+        font-size: 20px;
+    }
     .information {
         width: 200px;
     }
@@ -219,11 +222,11 @@ img.myfoto {
     .material-symbols-outlined, .fa-brands {
         font-size: 20px;
     }
-    .icon-text {
-        font-size: 15px;
+    .icon-text, .text {
+        font-size: 20px;
     }
-    .icon-text-mail {
-        font-size: 10px;
+    .icon-text-mail, .text {
+        font-size: 20px;
     }
     .name {
         font-size: 40px;
@@ -255,5 +258,33 @@ img.myfoto {
     }
     .main-information {
         margin-left: 10px;
+    }
+    .text {
+        word-wrap: break-word;
+        max-width: 150px;
+    }
+}
+@media (max-width: 460px) {
+    .wrapper{
+        flex-direction: column;
+    }
+    .information {
+        width: 100%;
+    }
+    img.myfoto {
+        width: 50%;
+        transform: translate(50%, 10%) perspective(500px) rotate3d(20, 40, 0, 13deg);
+    }
+    .menu li a {
+        font-size: 17px;
+    }
+    .text {
+        max-width: 100%;
+    }
+    .education-text {
+        margin-top: 25px;
+    }
+    .project-conteiner {
+        margin-bottom: 50px;
     }
 }
