@@ -15,6 +15,7 @@ p {
     width: 100%;
     box-shadow: 4px 2px 2px rgb(137, 202, 170);
     height: auto;
+    overflow: hidden;
 }
 a {
     text-decoration:none;
@@ -166,7 +167,7 @@ a {
     left: 2px;
     text-shadow: -1px 0 red;
     top: 0;
-    color: rgb(137, 202, 170);
+    color: rgb(206 214 243);
     background: rgb(9 32 63);
     overflow: hidden;
     clip: rect(0, 900px, 0, 0);
@@ -243,7 +244,7 @@ a {
     left: -2px;
     text-shadow: 1px 0 blue;
     top: 0;
-    color: rgb(137, 202, 170);
+    color: rgb(206 214 243);
     background: rgb(9 32 63);
     overflow: hidden;
     clip: rect(0, 900px, 0, 0);
