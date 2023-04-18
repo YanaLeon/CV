@@ -12,5 +12,5 @@ function consoleText(words) {
       }
      }
 }
-window.addEventListener('load', () => {
+window.addEventListener('DOMContentLoaded', () => {
     consoleText(['Hello there, I am frontend developer. Welcome to my portfolio'])});
