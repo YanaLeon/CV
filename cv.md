@@ -10,7 +10,7 @@
 ------------------------------------------------------------------------
 ### **About Me**
 
-I'm 28 years old. I have an education as a journalist. For several years I have worked as a journalist, but decided to change my profession. And for 5 years now I have been working as a specialist in foreign economic activity. I have always been interested in creating and developing websites. I am interested in inventing new things and improving old ones. So I decided to teach Front-End Development in RSSchool.
+Hello there, I am looking for a Junior Front-end developer job. At the moment I have knowledge of JavaScript, HTML, CSS. Every day I improve my skills and develop. Now I am learning React. Below you can see examples of my code, including on GitHub, and examples of my works.
 
 ------------------------------------------------------------------------
 ### **Skills**
