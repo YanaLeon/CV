@@ -1,2 +1,2 @@
 # Portfolio  
-https://yanaleon.github.io/CV/  
+https://YanaLeon.github.io/CV/ 
