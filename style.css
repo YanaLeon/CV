@@ -296,7 +296,7 @@ a {
 }
 .text-abot-me, .project-name, .text-project {
     color: rgb(137, 202, 170);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 .text-abot-me {
     color: rgb(137, 202, 170);
@@ -314,7 +314,7 @@ a {
     text-align: center;
 }
 .project-foto {
-    width: 300px;
+    width: 150px;
     height: 150px;
     border: 2px solid rgb(27 71 109);
     border-radius: 20px;
